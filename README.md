@@ -1,5 +1,6 @@
 # QR Generator 
-  used HTML, CSS, javascript, Express.js with Node.js
+  Used HTML, CSS, javascript, Express.js with Node.js.
+  Local Server created.
 
 ## Description:
   QR Generator is a web application that allows users to generate QR codes by entering text. 
