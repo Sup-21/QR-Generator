@@ -18,7 +18,6 @@ app.get("/", (req, res) => {
 app.post("/submit", (req, res) => {
 const input_text = req.body["qr-generator"];
 
-  // Generate QR code using the input text and overwrite the existing image file
 const qr_svg = qr.svgObject(input_text,{size:"200"});
   
   console.log(qr_svg);
