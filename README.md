@@ -1,5 +1,5 @@
 # QR Generator 
-  Used HTML, CSS, javascript, Express.js with Node.js.
+  Used HTML, CSS, javascript, Express.js with Node.js, ejs.
   Work on Local Server. HTTP Requests (get,post) , Middleware(Body Parse ), Custom Middleware( Morgan , DIY ).
   package used: {"body-parser", "express", "inquirer", "qr-image" }
 
