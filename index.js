@@ -7,7 +7,7 @@ import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const app = express();
 app.set('view engine', 'ejs');
-const port = 3030;
+const port = process.env.PORT || 3030;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
